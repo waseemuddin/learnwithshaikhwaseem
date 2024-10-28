@@ -24,12 +24,13 @@ minikube start
 ## Minikube Basic Commands
 
 ``
-> minukube status
+minukube status
 
-> minikube
+minikube
 
->kubeclt
+kubeclt
 
->kubeclt version
+kubeclt version
 
+kubectl get nodes
 ``
