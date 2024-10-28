@@ -1,22 +1,16 @@
 
-# 💡 Introduction to Minikube Observability
+# 💡 Introduction to Minikube
 - minikube is easy and quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows.
 
-![Screenshot](/images/screenshot.png)
+![Screenshot](/minikube/images/screenshot.png)
 
----
-title: "minikube start"
-linkTitle: "Get Started!"
-weight: 1
-aliases:
-  - /docs/start
----
+All you need is Docker (or similarly compatible) container or a Virtual Machine environment, and Kubernetes is a single command away: 
 
-minikube is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.
+``
+minikube start
+``
 
-All you need is Docker (or similarly compatible) container or a Virtual Machine environment, and Kubernetes is a single command away: `minikube start`
-
-## What you’ll need
+## What you’ll need - Installation Requirements
 
 * 2 CPUs or more
 * 2GB of free memory
