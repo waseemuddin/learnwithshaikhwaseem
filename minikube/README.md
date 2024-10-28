@@ -18,7 +18,7 @@ minikube start
 * Internet connection
 * Container or virtual machine manager
 
-<h2 class="step"><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x"></i><strong class="fa-stack-1x text-primary">1</strong></span>Installation</h2>
+<h2 class="step"><span class="fa-stack fa-1x"><i class="fa fa-circle fa-stack-2x"></i><strong class="fa-stack-1x text-primary">1</strong></span>Installation Steps</h2>
 
 
 ## Minikube Basic Commands
@@ -41,7 +41,7 @@ minukube status
 
 ```
 
-## Examples CURD Operation
+## 💡  Examples CURD Operation
 
 Lets create simple deployment and using nginx:alpine images
 Example : 1
