@@ -32,4 +32,55 @@ kubeclt
 kubeclt version
 kubectl get nodes
 ```
-![Screenshot](/minikube/images/Screenshot%20from%202024-10-28%2019-04-41.png)
+![Screenshot](/minikube/images/kubversion.png)
+
+```shell
+kubectl get nodes
+
+minukube status
+
+```
+
+## Examples CURD Operation
+
+Lets create simple deployment and using nginx:alpine images
+Example : 1
+
+```shell
+1. kubectl create deployment nginx-alpine --image=nginx:alpine
+deployment.apps/nginx-alpine created
+
+2. kubectl get deployments,pods,replicaset | grep nginx
+```
+
+![Screenshot](/minikube/images/podsview.png)
+
+Now Edit the deployment and make some changes in replicaset to 2
+
+```shell
+1. kubectl edit deployment nginx-alpine
+
+2. kubectl get deployment,pods,replicaset | grep nginx-alpine
+```
+
+![Screenshot](/minikube/images/edit.png)
+
+![Screenshot](/minikube/images/edit.png)
+
+Now how to check the logs and describe command
+
+```shell
+1. kubectl logs nginx-alpine
+2. kubectl descirbe pod nginx-alpine
+```
+
+Now lets delete the deployment
+
+```shell
+1. kubectl delete deployment nginx-alpine
+
+2. kubectl get deployment,pods,replicaset | grep nginx-alpine
+```
+
+![Screenshot](/minikube/images/del.png)
+
