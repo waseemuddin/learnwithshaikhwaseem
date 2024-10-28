@@ -65,7 +65,7 @@ Now Edit the deployment and make some changes in replicaset to 2
 
 ![Screenshot](/minikube/images/edit.png)
 
-![Screenshot](/minikube/images/edit.png)
+![Screenshot](/minikube/images/viewall.png)
 
 Now how to check the logs and describe command
 
