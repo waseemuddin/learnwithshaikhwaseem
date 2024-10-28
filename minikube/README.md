@@ -25,12 +25,9 @@ minikube start
 
 ``
 minukube status
-
 minikube
-
 kubeclt
-
 kubeclt version
-
 kubectl get nodes
+
 ``
