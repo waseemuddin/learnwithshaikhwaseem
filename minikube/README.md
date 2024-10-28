@@ -23,11 +23,11 @@ minikube start
 
 ## Minikube Basic Commands
 
-``
+```shell
 minikube start
 minukube status
 minikube
 kubeclt
 kubeclt version
 kubectl get nodes
-``
+```
