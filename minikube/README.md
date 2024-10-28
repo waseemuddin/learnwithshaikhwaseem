@@ -25,7 +25,6 @@ minikube start
 
 ```shell
 minikube start
-![Screenshot](/minikube/images/Screenshot%20from%202024-10-28%2019-04-41.png)
 
 minukube status
 minikube
@@ -33,3 +32,4 @@ kubeclt
 kubeclt version
 kubectl get nodes
 ```
+![Screenshot](/minikube/images/Screenshot%20from%202024-10-28%2019-04-41.png)
