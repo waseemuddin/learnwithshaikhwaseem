@@ -70,7 +70,7 @@ Now Edit the deployment and make some changes in replicaset to 2
 Now how to check the logs and describe command
 
 ```shell
-1. kubectl logs nginx-alpine
+1. kubectl logs pods/nginx-alpine
 2. kubectl descirbe pod nginx-alpine
 ```
 
