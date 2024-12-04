@@ -4,7 +4,7 @@
 
 ![Screenshot](/minikube/images/screenshot.png)
 
-All you need is Docker (or similarly compatible) container or a Virtual Machine environment, and Kubernetes is a single command away: 
+All you need is a Docker (or similarly compatible) container or a Virtual Machine environment, and Kubernetes is a single command away: 
 
 ``
 minikube start
@@ -43,7 +43,7 @@ minukube status
 
 ## 💡  Examples CURD Operation
 
-Lets create simple deployment and using nginx:alpine images
+Let's create simple deployment and using nginx:alpine images
 Example : 1
 
 ```shell
